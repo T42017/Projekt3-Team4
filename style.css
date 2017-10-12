@@ -7,7 +7,11 @@
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%}
-body {
+	
+	
+.container {
+	position: relative;
+	padding-top: 260px;
     margin: 0;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -761,6 +765,7 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
+	position: relative;
     color: #333;
     background-color: #fff;
 }
@@ -793,7 +798,7 @@ img {
     height: auto;
 }
 .img-rounded {
-    border-radius: 6px;
+
 }
 .img-thumbnail {
     display: inline-block;
@@ -803,7 +808,7 @@ img {
     line-height: 1.42857143;
     background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 4px;
+
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -3721,7 +3726,7 @@ a.badge:focus, a.badge:hover {
     padding-bottom: 30px;
     margin-bottom: 30px;
     color: inherit;
-    background-color: #eee;
+    background-color: #e394aa;
 }
 .jumbotron .h1, .jumbotron h1 {
     color: inherit;
@@ -3737,7 +3742,7 @@ a.badge:focus, a.badge:hover {
 .container .jumbotron, .container-fluid .jumbotron {
     padding-right: 15px;
     padding-left: 15px;
-    border-radius: 6px;
+    
 }
 .jumbotron .container {
     max-width: 100%}
