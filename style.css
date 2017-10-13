@@ -11,23 +11,32 @@
 	margin-left: 1%;
 }
 
+a.homepage {
+	color: #FFFFFF;
+}
+
+a.homepage:hover {
+	color: #FFFFFF;
+}
+
 h1 {
 	font-size: 63px;
 }
 
 .h1top5, .h1allbooks, .h1borrowbook {
-	font-size: 22vh;
+	font-size: 11vh;
+	font-size: 11vw; 
 	text-shadow: 3px 3px #000000;
 }
 
 .h1allbooks {
 	float: right;
-	padding-right: 20px; 
+	padding-right: 2%; 
 }
 
 .h1borrowbook, .h1top5 {
 	float: left;
-	padding-left: 20px;
+	padding-left: 2%;
 }
 
 .imgcontainertop5, .imgcontainerallbooks, .imgcontainerborrowbooks {

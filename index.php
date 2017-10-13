@@ -21,7 +21,9 @@
 		<div class="navigationbar">
 			<table>
 				<th>
-					Home
+					<a class="homepage" href="index.php">
+						Home
+					</a>
 				</th>
 				<th>
 					All books
