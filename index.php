@@ -12,33 +12,7 @@
 </head>
 <body>
 	<div class="hole-page">	
-		<div class ="main-page-header">
-			<h1>
-				Bibliomania
-				<img class="img-header" src="books.png" alt="Mainpicture">
-			</h1>
-		</div>
-		<div class="navigationbar">
-			<table>
-				<th>
-					<a class="homepage" href="index.php">
-						Home
-					</a>
-				</th>
-				<th>
-					All books
-				</th>
-				<th>
-					New books
-				</th>
-				<th>
-					Categories
-				</th>
-				<th>
-					Borrow books
-				</th>
-			</table>
-		</div>
+		<script src="importheader.js"></script>
 	    <div class="col-1">
 	    	<h1 class="h1top5">Top 5 books</h1>
 	    	<div class="imgcontainertop5">

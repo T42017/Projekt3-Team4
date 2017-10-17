@@ -11,10 +11,6 @@
 	margin-left: 1%;
 }
 
-a.homepage {
-	color: #FFFFFF;
-}
-
 a.homepage:hover {
 	color: #FFFFFF;
 }
@@ -131,7 +127,8 @@ p.desc {
 	background: linear-gradient(to right, #88CC00 0%, #88CC00 75.4%, #88CC00 75.4%, #FFFFFF 75.4%, #FFFFFF 100%);
 }
 
-.navigationbar {
+.navigationbar a{
+	color: #FFFFFF;
 }
 
 table {
