@@ -10,8 +10,8 @@
 
 	<title>Bibliomania</title>
 </head>
-<body>
-	<div class="hole-page">	
+	<body>
+		<div class="hole-page">	
 		<script src="importheader.js"></script>
 	</div>
 <div class="navigationbar">
