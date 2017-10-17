@@ -10,15 +10,11 @@
 
 	<title>Bibliomania</title>
 </head>
-	<body>
-		<div class="hole-page">	
-		<div class ="main-page-header">
-			<h1>
-				Bibliomania
-				<img class="img-header" src="books.png" alt="Mainpicture">
-			</h1>
-		</div>
-		<div class="navigationbar">
+<body>
+	<div class="hole-page">	
+		<script src="importheader.js"></script>
+	</div>
+<div class="navigationbar">
 			<table>
 				<th class="homepage">
 					<a class="page" href="index.php">
