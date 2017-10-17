@@ -21,12 +21,14 @@
 		<div class="navigationbar">
 			<table>
 				<th>
-					<a class="homepage" href="index.php">
+					<a class="page" href="index.php">
 						Home
 					</a>
 				</th>
 				<th>
-					All books
+					<a class="page" href="allbooks.php">
+						All books
+					</a>
 				</th>
 				<th>
 					New books
@@ -42,7 +44,7 @@
 	    <div class="col-1">
 	    	<h1 class="h1top5">Top 5 books</h1>
 	    	<div class="imgcontainertop5">
-		  		<img class="img-top5" src="Top5books.jpg" alt="Top 5">
+		  			<img class="img-top5" src="Top5books.jpg" alt="Top 5">	
 		  		<div class="pcontainer">
 		  			<p class="desc">Check out our top 5 hits!</p>
 		  		</div>
@@ -51,10 +53,12 @@
 	    <div class="col-2">
 	    	<h1 class="h1allbooks">All books</h1>
 	    	<div class="imgcontainerallbooks">
-		  		<img class="img-allbooks" src="Allbooks.jpg" alt="All Books">
-		  		<div class="pcontainer">
-		  			<p class="desc">Look at our huge variety of books!</p>
-		  		</div>
+	    		<a href="allbooks.php">
+		  			<img class="img-allbooks" src="Allbooks.jpg" alt="All Books">
+		  			<div class="pcontainer">
+		  				<p class="desc">Look at our huge variety of books!</p>
+		  			</div>
+		  		</a>
 		  	</div>
 	    </div>
 	    <div class="col-3">

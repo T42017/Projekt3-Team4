@@ -11,12 +11,27 @@
 	margin-left: 1%;
 }
 
-a.homepage {
+a.page {
 	color: #FFFFFF;
 }
 
-a.homepage:hover {
+a.page:hover {
 	color: #FFFFFF;
+}
+
+.allbookspage {
+	margin-top: 1%;
+	width: 90%;
+	margin-left: 5%;
+	padding: 1%;
+}
+
+.allbookstable {
+	background-color: #FFFFFF;
+	border: 2px solid rgba(0, 0, 0, 0.5);
+	border-collapse: collapse;
+	color: #000000;
+	text-align: center;
 }
 
 h1 {
@@ -141,8 +156,13 @@ table {
 	height: 30px;
 }
 
-th {
+th.homepage {
 	text-align: center;
 	width: 20%;
+}
+
+th.allbooks {
+	width: 16.66666666%;
+	text-align: center;
 }
 
