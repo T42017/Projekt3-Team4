@@ -12,7 +12,7 @@
 </head>
 <body>
 	<div class="hole-page">	
-		<script src="importheader.js"></script>
+			<?php include 'importheader.php' ?>
 
 	    <div class="col-1">
 	    	<h1 class="h1top5">Top 5 books</h1>

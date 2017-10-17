@@ -12,7 +12,7 @@
 </head>
 	<body>
 		<div class="hole-page">	
-				<script src="importheader.js"></script>
+				<?php include 'importheader.php' ?>
 				
 			<div class="allbookspage">
 				<table class="allbookstable">
