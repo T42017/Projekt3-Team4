@@ -12,6 +12,9 @@
 }
 
 a.page {
+	color: #FFFFFF;
+}
+
 a.page:hover {
 	color: #FFFFFF;
 }

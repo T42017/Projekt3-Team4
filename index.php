@@ -14,14 +14,10 @@
 	<div class="hole-page">	
 		<script src="importheader.js"></script>
 
-					<a class="page" href="index.php">
-					<a class="page" href="allbooks.php">
-						All books
-					</a>
 	    <div class="col-1">
 	    	<h1 class="h1top5">Top 5 books</h1>
 	    	<div class="imgcontainertop5">
-		  			<img class="img-top5" src="Top5books.jpg" alt="Top 5">	
+		  		<img class="img-top5" src="Top5books.jpg" alt="Top 5">	
 		  		<div class="pcontainer">
 		  			<p class="desc">Check out our top 5 hits!</p>
 		  		</div>

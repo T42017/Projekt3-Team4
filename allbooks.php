@@ -12,52 +12,30 @@
 </head>
 	<body>
 		<div class="hole-page">	
-		<script src="importheader.js"></script>
-	</div>
-<div class="navigationbar">
-			<table>
-				<th class="homepage">
-					<a class="page" href="index.php">
-						Home
-					</a>
-				</th>
-				<th class="homepage">
-					<a class="page" href="allbooks.php">
-						All books
-					</a>
-				</th>
-				<th class="homepage">
-					New books
-				</th>
-				<th class="homepage">
-					Categories
-				</th>
-				<th class="homepage">
-					Borrow books
-				</th>
-			</table>
-		</div>
-		<div class="allbookspage">
-			<table class="allbookstable">
-				<th class="allbooks">
-					Title
-				</th>
-				<th class="allbooks">
-					Author
-				</th>
-				<th class="allbooks">
-					Released
-				</th>
-				<th class="allbooks">
-					Category
-				</th>				
-				<th class="allbooks">
-					ISBN
-				</th>
-				<th class="allbooks">
-					Cover
-				</th>
-			</table>
+				<script src="importheader.js"></script>
+				
+			<div class="allbookspage">
+				<table class="allbookstable">
+					<th class="allbooks">
+						Title
+					</th>
+					<th class="allbooks">
+						Author
+					</th>
+					<th class="allbooks">
+						Released
+					</th>
+					<th class="allbooks">
+						Category
+					</th>				
+					<th class="allbooks">
+						ISBN
+					</th>
+					<th class="allbooks">
+						Cover
+					</th>
+				</table>
+			</div>
 		</div>
 	</body>
 <html>

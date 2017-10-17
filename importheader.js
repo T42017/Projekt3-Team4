@@ -11,32 +11,32 @@ document.write('\
 		</div>                                                                  \
 		<div class="navigationbar">                                             \
 			<table>                                                             \
-				<th>                                                            \
+				<th class="homepage">                                           \
 					<a class="homepage" href="index.php">                       \
 						Home                                                    \
 					</a>                                                        \
 				</th>                                                           \
-				<th>                                                            \
-				                                                                \
-					<a class = "allbooks" href = "allbooks.html">All books</a>  \
-				</th>                                                           \
-				<th>                                                            \
-				<a class = "newbooks" href = "newbooks.html">                   \
-					New books                                                   \
+				<th class="homepage">                                           \				                                                                \
+					<a class = "allbooks" href = "allbooks.php">			    \
+						All books                                               \
 					</a>                                                        \
 				</th>                                                           \
-				<th>                                                            \
-				<a class = "categories" href = "categories.html">               \
-					Categories                                                  \
+				<th class="homepage">                                           \
+					<a class = "newbooks" href = "newbooks.php">                \
+						New books                                               \
 					</a>                                                        \
 				</th>                                                           \
-				<th>                                                            \
-				<a  class = "borrowbooks" href = "categories.html">             \
-					Borrow books                                                \
+				<th class="homepage">                                           \
+					<a class = "categories" href = "categories.php">            \
+						Categories                                              \
+					</a>                                                        \
+				</th>                                                           \
+				<th class="homepage">                                           \
+					<a class = "borrowbooks" href = "borrowbooks.php">          \
+						Borrow books                                            \
 					</a>                                                        \
 				</th>                                                           \
 			</table>                                                            \
 		</div>                                                                  \
-		</header>                                                               \
-		                                                                        \
+		</header>                                                               \		                                                                        \
 		');
