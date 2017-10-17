@@ -11,8 +11,31 @@
 	margin-left: 1%;
 }
 
+<<<<<<< HEAD
 a.homepage:hover {
+=======
+a.page {
 	color: #FFFFFF;
+}
+
+a.page:hover {
+>>>>>>> origin/feature-allbookspage
+	color: #FFFFFF;
+}
+
+.allbookspage {
+	margin-top: 1%;
+	width: 90%;
+	margin-left: 5%;
+	padding: 1%;
+}
+
+.allbookstable {
+	background-color: #FFFFFF;
+	border: 2px solid rgba(0, 0, 0, 0.5);
+	border-collapse: collapse;
+	color: #000000;
+	text-align: center;
 }
 
 h1 {
@@ -127,12 +150,8 @@ p.desc {
 	background: linear-gradient(to right, #88CC00 0%, #88CC00 75.4%, #88CC00 75.4%, #FFFFFF 75.4%, #FFFFFF 100%);
 }
 
-<<<<<<< HEAD
-.navigationbar {
-=======
 .navigationbar a{
 	color: #FFFFFF;
->>>>>>> origin/Header_sites
 }
 
 table {
@@ -142,8 +161,13 @@ table {
 	height: 30px;
 }
 
-th {
+th.homepage {
 	text-align: center;
 	width: 20%;
+}
+
+th.allbooks {
+	width: 16.66666666%;
+	text-align: center;
 }
 
