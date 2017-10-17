@@ -4,67 +4,81 @@
 	padding-left: 30px;
 	text-align: left;
 	font-size: 63px;
+}
 
 .hole-page {
 	width: 98%;
 	margin-left: 1%;
+}
 
 a.homepage {
 	color: #FFFFFF;
+}
 
 a.homepage:hover {
 	color: #FFFFFF;
+}
 
 h1 {
 	font-size: 63px;
+}
 
 .h1top5, .h1allbooks, .h1borrowbook {
 	font-size: 11vh;
 	font-size: 11vw; 
 	text-shadow: 3px 3px #000000;
+}
 
 .h1allbooks {
 	float: right;
 	padding-right: 2%; 
+}
 
 .h1borrowbook, .h1top5 {
 	float: left;
 	padding-left: 2%;
+}
 
 .imgcontainertop5, .imgcontainerallbooks, .imgcontainerborrowbooks {
 	height: auto;
 	position: relative;
 	text-align: center;
 	transition: 1s;
+}
 
 .imgcontainerallbooks {
-	color: blue;
 	float: left;
 	width: 26.5%;
 	left: 0px;
+}
 
 .imgcontainertop5, .imgcontainerborrowbooks {
 	float: right;
 	width: 22%;
 	right: 0px;
+}
 
 .imgcontainerborrowbooks {
 	float: right;
 	width: 26%;
 	right: 0px;
+}
 
 .imgcontainertop5:hover, .imgcontainerallbooks:hover, .imgcontainerborrowbooks:hover{
 	opacity: 0.7;
 	transition: 1s;
+}
 
 .img-header {
 	width: 5%;
 	height: auto;
+}
 
 .img-top5 {
 	width: 80%;
-	height: ;
+	height: auto;
 	overflow: hidden;
+}
 
 .img-allbooks {
 	width: 100%;
@@ -76,38 +90,49 @@ h1 {
 	width: 100%;
 	height: auto;
 	overflow: hidden;
+}
 
 .pcontainer {
 	position: absolute;    
     overflow: hidden;
+    bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
+}
 
 p.desc {
 	text-shadow: 1px 1px #000000;
 	font-weight: bold;
 	color: #FFFFFF;
 	opacity: 1;
+}
 
 .col-1, .col-2, .col-3 {
 	font-style: bold;
 	position: relative;
+	width: 100%;
     height: 5%;
+    overflow: hidden;
     transition: 1s;
+}
 
 .col-1 {
 	color: #FFBF80;
 	background: linear-gradient(to right, #FF9933 0%, #FF9933 78%, #FF9933 78%, #FFFFFF 78.18%, #FFFFFF 100%);
+}
 
 .col-2 {
 	color: #FFA31A;
 	background: linear-gradient(to left, #CC0000 0%, #CC0000 73.5%, #CC0000 73.5%, #FFFFFF 74.68%, #FFFFFF 100%);
+}
 
 .col-3 {
 	color: #DDFF99;
 	background: linear-gradient(to right, #88CC00 0%, #88CC00 75.4%, #88CC00 75.4%, #FFFFFF 75.4%, #FFFFFF 100%);
+}
 
-.navigationbar{
+.navigationbar {
+}
 
 table {
 	background-color: #000000;
