@@ -5,8 +5,17 @@
 	text-align: left;
 	font-size: 63px;
 }
-
-.hole-page {
+.iconLink {
+	color: black;
+	text-decoration: none;
+	
+}
+.iconLink:hover {
+	color: black;
+	text-decoration: none;
+	
+}
+body {
 	width: 98%;
 	margin-left: 1%;
 }
@@ -149,21 +158,19 @@ p.desc {
 .navigationbar a{
 	color: #FFFFFF;
 }
-
-table {
+.navigationbar table{
 	background-color: #000000;
 	width: 100%;
 	color: #FFFFFF;
 	height: 30px;
+	font-size: 20px;
+}	
+.footer{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	font-size: 20px;
+}	
+.foottable td{
+	padding-left: 10px;
 }
-
-th.homepage {
-	text-align: center;
-	width: 20%;
-}
-
-th.allbooks {
-	width: 16.66666666%;
-	text-align: center;
-}
-

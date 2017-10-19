@@ -1,9 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<title>Bibliomania</title>
+</head>
+<body>
 		<header>                                                              
 		<div class ="main-page-header">                                       
-			<h1>                                                              
-				Bibliomania                                                   
+			                                                             
+				<a class = "iconLink" href = "index.php">Bibliomania                                                  
 				<img class="img-header" src="books.png" alt="Mainpicture">    
-			</h1>                                                             
+			                                                           </a>
 		</div>                                                                
 		<div class="navigationbar">                                           
 			<table>                                                           
@@ -13,7 +26,6 @@
 					</a>                                                      
 				</th>                                                         
 				<th>                                                          
-				                                                              
 					<a class = "allbooks" href = "allbooks.php">All books</a>
 				</th>                                                         
 				<th>                                                          
@@ -30,7 +42,8 @@
 				<a  class = "borrowbooks" href = "borrowbooks.php">           
 					Borrow books                                              
 					</a>                                                      
-				</th>                                                         
+				</th>   
+				
 			</table>                                                          
 		</div>                                                                
 		</header>                                                             
