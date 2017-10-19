@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-	<title>Bibliomania</title>
-</head>
-	<body>
-		<div class="hole-page">	
-				<?php include 'importheader.php' ?>
+				<?php include 'importheader.php';
+				require 'DatabasConnection.php';
+				?>
 				
 			<div class="allbookspage">
 				<table class="allbookstable">
@@ -31,10 +20,31 @@
 					<th class="allbooks">
 						ISBN
 					</th>
-					<th class="allbooks">
-						Cover
-					</th>
-				</table>
+        			<?php 
+        				foreach ($books as $book): ?>
+			            <tr class="allbooks">
+			                <td> 
+			                    <?php echo $book["title"]; ?>
+			                </td>
+
+			                <td>
+			                    <?php echo ?>
+			                </td>
+
+			                <td>
+			                    <?php echo $book["released"]; ?>
+			                </td>
+
+			                <td>
+			                	<?php echo $book["category"]; ?>
+			                </td>
+
+			                <td> 
+			                    <?php echo $book["isbn"]; ?>
+			                </td>
+			            </tr>
+			        <?php endforeach; ?>
+			    </table>
 			</div>
 		</div>
 	</body>

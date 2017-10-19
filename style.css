@@ -167,3 +167,35 @@ th.allbooks {
 	text-align: center;
 }
 
+tr.allbooks {
+	width: 16.66666666%;
+	text-align: center;
+	height: 10vh;
+	border: 2px solid rgba(0, 0, 0, 0.5);
+
+}
+
+td.addbook {
+	color: #000000;
+}
+
+table.addbooks {
+	margin-top: 1%;
+
+}
+
+td.addbooks {
+	padding: 1%;
+}
+
+div.checkadd {
+	width: 70%;
+	margin-left: 1%;
+	margin-top: 1%;
+	font-weight: bold;
+}
+
+.submit {
+	color: #000000;
+	background-color: #FFFFFF;
+}
