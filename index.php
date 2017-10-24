@@ -22,14 +22,16 @@
 		  	</div>
 	    </div>
 	    <div class="col-3">
-	    	<h1 class="h1borrowbook">Borrow</h1>
+	    	<h1 class="h1borrowbook">Add Book</h1>
 	    	<div class="imgcontainerborrowbooks">
-		  		<img class="img-borrowbooks" src="Borrowbook.jpg" alt="Borrow Books">
-		  		<div class="pcontainer">
-		  			<p class="desc">Borrow one of our books!</p>
-		  		</div>
+	    		<a href="addbooks.php">
+			  		<img class="img-borrowbooks" src="Borrowbook.jpg" alt="Borrow Books">
+			  		<div class="pcontainer">
+			  			<p class="desc">Add a book to our system!</p>
+			  		</div>
+			  	</a>
 		  	</div>
-		</div>
+		</div>s
 	</div>
 </body>
 </html>

@@ -28,7 +28,7 @@
 			                </td>
 
 			                <td>
-			                    <?php echo ?>
+			                    Author
 			                </td>
 
 			                <td>
