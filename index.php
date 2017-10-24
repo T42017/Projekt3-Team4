@@ -31,7 +31,6 @@
 			  		</div>
 			  	</a>
 		  	</div>
-		</div>s
+		</div>
 	</div>
-</body>
-</html>
+<?php include 'importfooter.php'; ?>

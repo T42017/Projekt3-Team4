@@ -199,8 +199,18 @@ div.checkadd {
 
 a.headerlink {
 	text-decoration: none;
-	color: #000000;
+	color: #000000;	
+}
 	
+.footer{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	font-size: 20px;
+}	
+
+.foottable td{
+	padding-left: 10px;
 }
 
 .submit {
