@@ -197,6 +197,12 @@ div.checkadd {
 	font-weight: bold;
 }
 
+a.headerlink {
+	text-decoration: none;
+	color: #000000;
+	
+}
+
 .submit {
 	color: #000000;
 	background-color: #FFFFFF;

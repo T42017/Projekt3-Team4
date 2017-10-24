@@ -13,11 +13,13 @@
 <body>
 	<div class="hole-page">	
 		<header>                                                              
-		<div class ="main-page-header">                                       
-			<h1>                                                              
-				Bibliomania                                                   
-				<img class="img-header" src="books.png" alt="Mainpicture">    
-			</h1>                                                             
+		<div class ="main-page-header">   
+			<a class="headerlink" href="index.php">                                    
+				<h1>                                                              
+					Bibliomania                                                   
+					<img class="img-header" src="books.png" alt="Mainpicture">    
+				</h1>
+			</a>                                                             
 		</div>                                                                
 		<div class="navigationbar">                                           
 			<table>                                                           
