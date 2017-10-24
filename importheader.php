@@ -32,12 +32,7 @@
 					<a class = "allbooks" href = "allbooks.php">
 						All books
 					</a>
-				</th>                                                         
-				<th class="homepage">                                    
-					<a class = "newbooks" href = "newbooks.php">               
-						New books                                              
-					</a>                                                      
-				</th>                                                         
+				</th>                                                                                               
 				<th class="homepage">                                   
 					<a class = "categories" href = "categories.php">          
 						Categories                                         
